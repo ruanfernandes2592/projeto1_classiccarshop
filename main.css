@@ -4,37 +4,42 @@
     box-sizing: border-box;
 }
 
+header {
+    position: fixed;
+    min-width: 100%;
+}
+
 header,
 section h2,
 section h3,
 form button {
-    font-family: 'Bungee', cursive;
-    font-weight: normal;
+    font-family: 'Orbitron', sans-seri
 }
 
 body, input, textarea {
-    font-family: 'Roboto', sans-serif;
+    background-color: #fcfbe5;
+    font-family: 'Sora', sans-serif;
 }
 
-header{
-    padding: 16px 0;
-    background-color: #182c61;
-    color: #ecf0f1;
+header {
+    padding: auto;
+    background-color: #2d2d29;
+    color: #fcfbe5;
 }
 
 header nav li {
     display: inline;
-    margin-left: 16px;
-    font-size: 18px;
+    margin-left: 128px;
+    font-size: 16px;
 }
 
 header nav li a {
-    color: #ecf0f1;
+    color: #fcfbe5;
     text-decoration: none;
 }
 
 .container {
-    max-width: 1288px;
+    max-width: 1280px;
     width: 100%;
     margin: 0 auto;
 }
@@ -43,16 +48,43 @@ header .container,
 section .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
+}
+
+header .container img {
+    height: 64px;
+    margin-right: 1px;
 }
 
 .brands-list img {
-    height: 24px;
+    margin: 2px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+
+.brands-list,
+.logo_chevrolet {
+    height: 30px;
+}
+.brands-list,
+.logo_ford {
+    height: 30px;
+}
+.brands-list,
+.logo_land-rover {
+    height: 35px;
+}
+.brands-list,
+.logo_mercedes {
+    height: 35px;
+}
+.brands-list,
+.logo_volkswagen {
+    height: 40px;
 }
 
 .brands-list li {
     display: inline;
-    margin-right: 8px;
 }
 
 section .container {
@@ -60,24 +92,26 @@ section .container {
 }
 
 section {
-    padding: 24px 0;
+    padding: 24px;
+    color: #2d2d29;
 }
 
 section h2 {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
+    margin-top: 64px;
+}
+
+section .store-front {
+    margin-top: 64px;
+    height: 256px;
 }
 
 section p {
     margin-bottom: 8px;
-    color: #182c61;
 }
 
 .store-front {
     margin-right: 32px;
-}
-
-.social-links img {
-    height: 24px;
 }
 
 .social-links li {
@@ -87,6 +121,16 @@ section p {
 
 .social-links li a {
     text-decoration: none;
+}
+
+footer {
+    background-color: #2d2d29;
+    color: #fcfbe5;
+    padding: 16px 0;
+}
+
+.social-links img {
+    height: 24px;
 }
 
 #contact .container {
@@ -117,22 +161,16 @@ section h3 {
 }
 
 form button {
-    background-color: #182c61;
-    color: #ecf0f1;
+    background-color: #2d2d29;
+    color: #fcfbe5;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #314e9e;
+    background-color: #42422d;
 }
 
 input:focus, textarea:focus {
-    outline-color: #182c61;
-}
-
-footer {
-    background-color: #182c61;
-    color: #ecf0f1;
-    padding: 16px 0;
+    outline-color: #2d2d29;
 }

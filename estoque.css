@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    min-width: 100%;
+    padding: auto;
+    background-color: #2d2d29;
+    color: #fcfbe5;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Orbitron', sans-seri
+}
+
+body {
+    background-color: #fcfbe5;
+    font-family: 'Sora', sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 128px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: #fcfbe5;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-self: start;
+}
+
+header .container img {
+    height: 64px;
+    margin-right: 1px;
+}
+
+.articles img {
+    height: 256px;
+}
+
+section {
+    padding: 36px;
+    color: #2d2d29;
+}
+
+section h2 {
+    margin-bottom: 8px;
+    margin-top: 64px;
+    margin-left: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article a {
+    background-color: #2d2d29;
+    color: #fcfbe5;
+    padding: 8px;
+    display: inline-block;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+.articles article a:hover {
+    background-color:#42422d;
+}
+
+footer {
+    background-color: #2d2d29;
+    color: #fcfbe5;
+    padding: 16px 0;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}

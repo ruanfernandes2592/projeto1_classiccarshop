@@ -7,6 +7,9 @@
 header {
     position: fixed;
     min-width: 100%;
+    padding: auto;
+    background-color: #2d2d29;
+    color: #fcfbe5;
 }
 
 header,
@@ -19,12 +22,6 @@ form button {
 body, input, textarea {
     background-color: #fcfbe5;
     font-family: 'Sora', sans-serif;
-}
-
-header {
-    padding: auto;
-    background-color: #2d2d29;
-    color: #fcfbe5;
 }
 
 header nav li {
@@ -99,6 +96,7 @@ section {
 section h2 {
     margin-bottom: 8px;
     margin-top: 64px;
+    margin-left: 16px;
 }
 
 section .store-front {
